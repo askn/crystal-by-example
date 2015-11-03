@@ -7,3 +7,4 @@
 * [If-else](if-else/if-else.cr)
 * [Case](case/case.cr)
 * [Array](array/array.cr)
+* [Tuple](tuple/tuple.cr)

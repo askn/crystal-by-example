@@ -8,3 +8,4 @@
 * [Case](case/case.cr)
 * [Array](array/array.cr)
 * [Tuple](tuple/tuple.cr)
+* [Hash](hash/hash.cr)

@@ -11,3 +11,4 @@
 * [Hash](hash/hash.cr)
 * [Range](range/range.cr)
 * [Def](def/def.cr)
+* [Closures](closures/closures.cr)

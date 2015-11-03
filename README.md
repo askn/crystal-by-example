@@ -5,3 +5,4 @@
 * [Variables](variables/variables.cr)
 * [While](while/while.cr)
 * [If-else](if-else/if-else.cr)
+* [Case](case/case.cr)

@@ -15,3 +15,4 @@
 * [Recursion](recursion/recursion.cr)
 * [Struct](struct/struct.cr)
 * [Abstract](abstract/abstract.cr)
+* [Spawn](spawn/spawn.cr)

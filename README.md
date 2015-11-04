@@ -14,3 +14,4 @@
 * [Closures](closures/closures.cr)
 * [Recursion](recursion/recursion.cr)
 * [Struct](struct/struct.cr)
+* [Abstract](abstract/abstract.cr)

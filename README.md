@@ -13,3 +13,4 @@
 * [Def](def/def.cr)
 * [Closures](closures/closures.cr)
 * [Recursion](recursion/recursion.cr)
+* [Struct](struct/struct.cr)

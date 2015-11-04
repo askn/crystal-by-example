@@ -16,3 +16,5 @@
 * [Struct](struct/struct.cr)
 * [Abstract](abstract/abstract.cr)
 * [Spawn](spawn/spawn.cr)
+* [Channel](channel/channel.cr)
+* [Buffered-channel](buffered-channel/buffered-channel.cr)

@@ -32,3 +32,10 @@ def sa(name : String) : Int32
 end
 
 puts sa("ali")
+
+# ---
+def a : {Int32, String}
+  return 1, "2"
+end
+
+puts a

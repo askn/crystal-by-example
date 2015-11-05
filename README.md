@@ -18,3 +18,4 @@
 * [Spawn](spawn/spawn.cr)
 * [Channel](channel/channel.cr)
 * [Buffered-channel](buffered-channel/buffered-channel.cr)
+* [Channel-synchronization](channel-synchronization/channel-synchronization.cr)

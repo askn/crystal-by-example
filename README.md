@@ -20,3 +20,4 @@
 * [Buffered-channel](buffered-channel/buffered-channel.cr)
 * [Channel-synchronization](channel-synchronization/channel-synchronization.cr)
 * [Channel-select](channel-select/channel-select.cr)
+* [Closing-channels](closing-channels/closing-channels.cr)

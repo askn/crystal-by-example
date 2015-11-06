@@ -23,3 +23,5 @@
 * [Closing-channels](closing-channels/closing-channels.cr)
 * [Tickers](tickers/tickers.cr)
 * [Worker-pools](worker-pools/worker-pools.cr)
+* [Enumerable](enumerable/enumerable.cr)
+* [Enumerable-functions](enumerable-functions/enumerable-functions.cr)

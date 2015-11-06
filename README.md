@@ -21,3 +21,4 @@
 * [Channel-synchronization](channel-synchronization/channel-synchronization.cr)
 * [Channel-select](channel-select/channel-select.cr)
 * [Closing-channels](closing-channels/closing-channels.cr)
+* [Tickers](tickers/tickers.cr)

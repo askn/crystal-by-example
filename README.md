@@ -22,3 +22,4 @@
 * [Channel-select](channel-select/channel-select.cr)
 * [Closing-channels](closing-channels/closing-channels.cr)
 * [Tickers](tickers/tickers.cr)
+* [Worker-pools](worker-pools/worker-pools.cr)

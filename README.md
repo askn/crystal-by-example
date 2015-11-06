@@ -25,3 +25,4 @@
 * [Worker-pools](worker-pools/worker-pools.cr)
 * [Enumerable-functions](enumerable-functions/enumerable-functions.cr)
 * [Strings](strings/strings.cr)
+* [Regular-expressions](regular-expressions/regular-expressions.cr)

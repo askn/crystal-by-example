@@ -26,3 +26,4 @@
 * [Enumerable-functions](enumerable-functions/enumerable-functions.cr)
 * [Strings](strings/strings.cr)
 * [Regular-expressions](regular-expressions/regular-expressions.cr)
+* [Json](json/json.cr)

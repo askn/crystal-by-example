@@ -27,3 +27,4 @@
 * [Strings](strings/strings.cr)
 * [Regular-expressions](regular-expressions/regular-expressions.cr)
 * [Json](json/json.cr)
+* [Time](time/time.cr)

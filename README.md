@@ -30,3 +30,4 @@
 * [Time](time/time.cr)
 * [Epoch](epoch/epoch.cr)
 * [Time formatting parsing](time-formatting-parsing/time-formatting-parsing.cr)
+* [Random](random/random.cr)

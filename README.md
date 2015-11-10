@@ -31,3 +31,4 @@
 * [Epoch](epoch/epoch.cr)
 * [Time formatting parsing](time-formatting-parsing/time-formatting-parsing.cr)
 * [Random](random/random.cr)
+* [Url parsing](url-parsing/url-parsing.cr)

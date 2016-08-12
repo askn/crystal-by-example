@@ -6,6 +6,7 @@
 * [While](while/while.cr)
 * [If-else](if-else/if-else.cr)
 * [Case](case/case.cr)
+* [Command Line Arguments](command-line-args/argv.cr)
 * [Array](array/array.cr)
 * [Tuple](tuple/tuple.cr)
 * [Hash](hash/hash.cr)

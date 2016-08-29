@@ -20,7 +20,10 @@
 * [Buffered channel](buffered-channel/buffered-channel.cr)
 * [Channel synchronization](channel-synchronization/channel-synchronization.cr)
 * [Channel select](channel-select/channel-select.cr)
-* [Closing channels](closing-channels/closing-channels.cr)
+* Closing channels
+    * [Closing channels with control channel](closing-channels/closing-channels-nonatomic.cr)
+    * [Closing channels using receive?](closing-channels/closing-channels-nil.cr)
+    * [Closing channels using exception](closing-channels/closing-channels-exception.cr)
 * [Tickers](tickers/tickers.cr)
 * [Worker pools](worker-pools/worker-pools.cr)
 * [Enumerable functions](enumerable-functions/enumerable-functions.cr)

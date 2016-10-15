@@ -15,7 +15,7 @@ puts "ali".tsk
 def foo(x : Int, y : Float)
 end
 
-def foo(x, y = 1 : Int32, z = 2 : Int64)
+def foo(x, y : Int32 = 1, z : Int64 = 2)
   x + y + z
 end
 

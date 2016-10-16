@@ -5,7 +5,7 @@ puts "askn".to_json
 puts 1.to_json
 puts 12.14.to_json
 puts ["apple", "peach", "pear"].to_json
-puts Hash{"apple": 5, "lettuce": 7}.to_json
+puts Hash{"apple" => 5, "lettuce" => 7}.to_json
 
 # json_object
 # json_array

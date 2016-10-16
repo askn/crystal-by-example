@@ -1,5 +1,5 @@
 class Ticker
-  def initialize(@duration)
+  def initialize(@duration : Float64)
     @c = Channel(Nil).new
   end
 
@@ -16,7 +16,7 @@ class Ticker
     @c.close
   end
 
-  def each &block
+  def each(&block)
     start_timer
     spawn do
       until @c.closed?

@@ -3,20 +3,32 @@ puts a
 a = 3
 puts a
 
-x :: String
-x = "osman"
-puts x
-# tek satırda atama yapma ?
+# Currently type restrictions are not allowed for local variables
+# so we need the next few examples in a class
 
-e :: Int32
-puts e
-# e = "osman"
-# Error in ./variables.cr:11: type must be Int32, not (String | Int32)
+class WrapperClass
+  @x : String
+  @e : Int32
+  @y : Int32 | String
 
-# y :: Int32 | String
-# puts y # segmentation fault
+  def initialize
+    @x = "osman"
+    puts @x
 
-# tipi ile beraber çoklu atama ?
+    @e = 1
+    puts @e
+
+    # @e = "osman"
+    # in ./variables/variables.cr:20: instance variable '@e' of WrapperClass must be Int32, not String
+    @y = 1
+    @y = "osman"
+    puts @y
+  end
+end
+
+WrapperClass.new
+
+# Multiple assignments in a single line
 b, c = 1, 2
 puts b, c
 

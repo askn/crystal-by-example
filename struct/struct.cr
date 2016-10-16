@@ -4,25 +4,32 @@ end
 Foo(Int32)
 
 # ---
-struct Fo
+struct Foo
 end
 
-struct Bar < Fo
+# struct Bar < Foo
+# end
+# Error in ./struct/struct.cr:10: can't extend non-abstract struct Foo
+
+abstract struct AbstractFoo
+end
+
+struct Bar < AbstractFoo
 end
 
 # ---
 struct Test
-  def initialize(@test)
+  def initialize(@test : String)
   end
 end
 
-Test.new(nil)
+Test.new("foo")
 
 # ---
 struct User
   property name, age
 
-  def initialize(@name, @age)
+  def initialize(@name : String, @age : Int32)
   end
 
   def print

@@ -7,7 +7,7 @@ end
 
 xxx("normal")
 
-spawn xxx "spawn"
+spawn xxx("spawn")
 
 spawn do
   sleep 3

@@ -1,4 +1,9 @@
-class Foo
+# class Foo
+#   abstract def foo
+# end
+# Error in abstract/abstract.cr:2: can't define abstract def on non-abstract class
+
+abstract class Foo
   abstract def foo
 end
 
@@ -16,13 +21,13 @@ end
 
 # ---
 
-abstract class Geometry
-  abstract def area
-  abstract def perim
+abstract class Geometry(T)
+  abstract def area : T
+  abstract def perim : T
 end
 
-class Rect < Geometry
-  def initialize(@width, @height)
+class Rect < Geometry(Int32)
+  def initialize(@width : T, @height : T)
   end
 
   def area

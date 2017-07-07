@@ -19,7 +19,7 @@ def foo(x, y : Int32 = 1, z : Int64 = 2)
   x + y + z
 end
 
-def foo(x : T)
+def foo(x : T) forall T
 end
 
 foo(3) # x = 3, T = Int32

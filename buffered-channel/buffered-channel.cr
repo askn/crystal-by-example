@@ -4,5 +4,5 @@ ch.send 5
 
 2.times {
   puts "Yo"
-  ch.receive
+  puts ch.receive
 }

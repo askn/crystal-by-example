@@ -10,16 +10,16 @@ puts Hash{"apple" => 5, "lettuce" => 7}.to_json
 # json_object
 # json_array
 # field
-result = String.build do |io|
-  io.json_object do |object|
-    object.field "address", "Crystal Road 1234"
-    object.field "location" do
-      io.json_array do |array|
-        array << 12.3
-        array << 34.5
+result = JSON.build do |json|
+	json.object do
+  	json.field "address", "Crystal Road 1234"
+    json.field "location" do
+      json.array do
+        json.number 12.3
+        json.number 34.5
       end
     end
-  end
+	end
 end
 puts result # => %({"address":"Crystal Road 1234","location":[12.3,34.5]})
 

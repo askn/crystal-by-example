@@ -5,7 +5,7 @@ x2 = Complex.new(2, 1)
 pp x1
 pp x2
 puts
-p "x 1 + x2 = #{x1 + x2}"
+p "x1 + x2 = #{x1 + x2}"
 p "x1 - x2 = #{x1 - x2}"
 p "x1 * x2 = #{x1 * x2}"
 p "x1 / x2 = #{x1 / x2}"

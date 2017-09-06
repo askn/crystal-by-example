@@ -2,7 +2,7 @@
 # merely a basic idea how to work with text files in crystal
 
 # use this path for our file
-path = "expample.txt"
+path = "example.txt"
 # create a new file and open it in write mode
 # other files with the same name will be overwritten
 example_file = File.new path, "w"

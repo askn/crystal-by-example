@@ -26,3 +26,11 @@ File.each_line path do |line|
   puts line # => Another line
 end
 # Note that .puts will overwrite previous file contents
+
+# Read bytes
+File.open("example.txt") do |io| # This block autoclose file
+  buffer = Bytes.new(io.size) # Create buffer with io size
+  io.read(buffer) # Fill buffer with IO
+  pp buffer
+end
+

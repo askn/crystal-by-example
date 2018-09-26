@@ -1,5 +1,5 @@
 puts Time.now
-t = Time.new(2002, 10, 31, 2, 2, 2, 999, Time::Kind::Local)
+t = Time.new(2002, 10, 31, 2, 2, 2)
 p t
 puts t.year
 puts t.month

@@ -29,7 +29,7 @@ end
 
 ticker = Ticker.new(0.5)
 ticker.each do
-  puts Time.now
+  puts Time.local
 end
 
 sleep 3

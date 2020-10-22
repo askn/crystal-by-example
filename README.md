@@ -10,6 +10,7 @@
 * [Array](array/array.cr)
 * [Tuple](tuple/tuple.cr)
 * [Hash](hash/hash.cr)
+* [Input](input/input_stdin.cr)
 * [Range](range/range.cr)
 * [Def](def/def.cr)
 * [Closures](closures/closures.cr)
